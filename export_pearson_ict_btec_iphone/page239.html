@@ -1,0 +1,34 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+            <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+            <link type="text/css" rel="stylesheet" media="screen" href="" />
+            <title>Characteristics of high-level and low-level programming</title>
+        </head>
+        <body ontouchstart="">
+            <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+<!-- modules are loaded individually, probably better to manage this task with require.js -->
+<script type="text/javascript" src="js/iphone.glossary.js"></script>
+<script type="text/javascript" src="js/library.js"></script>
+<script type="text/javascript" src="js/iphone.accordion.js"></script>
+<script type="text/javascript" src="js/iphone.lightbox.js"></script>
+<script type="text/javascript" src="js/iphone.exercice.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+        glossary = new Glossary($);
+        accordion = new Accordion($);
+        lightbox = new Lightbox($);
+        exercice = new Exercice($);
+    });
+</script>
+<div class="composite page Pearson_Page" id="fid_MS40Ljk5Mi4xMDQ3LjEwNDkuMS4yLjUxLjUyLjIzNi4yMzkuLW1vZGVsc1xjb3JlXGVsZW1lbnRcY29tcG9zaXRlLTIzOQ==" data-path="1.4.992.1047.1049.1.2.51.52.236.239.">
+    <div class="page-header">
+            <img src="media/2e6c8eb96e5bd808fa338d5460db3b57.png" />
+    </div>                                                                    <h1>Characteristics of high-level and low-level programming</h1>
+                                                            <div class="level2" data-id="834"><h2 id="fid_MS40Ljk5Mi4xMDQ3LjEwNDkuMS4yLjUxLjUyLjIzNi4yMzkuODM0LjgzNi4tbW9kZWxzXGNvcmVcZWxlbWVudFx0ZXh0LTgzNg==">Introduction</h2><p>Most programmers use a high-level programming language to write their programs. High-level programs have much clearer structures when repeating code or making decisions.</p><p>Low-level programs usually have a very large number of lines of code because each instruction only does a small action, so it can be difficult to see the overall structure among so much detail.</p><p>This section will discuss the characteristics of high-level and low-level programming.</p></div>
+                                                            <div class="level2" data-id="851"><h2 id="fid_MS40Ljk5Mi4xMDQ3LjEwNDkuMS4yLjUxLjUyLjIzNi4yMzkuODUxLjg1My4tbW9kZWxzXGNvcmVcZWxlbWVudFx0ZXh0LTg1Mw==">Characteristics of high-level programming languages</h2><p>High-level programming languages are powerful and easy to understand.</p><p>Programs written in a high-level language are much closer to spoken language than low-level, as well as being a lot more intuitive to use.</p><p>High-level programming languages have several ways of working, including:</p><root><ul><li><strong>Imperative code.</strong> This is used in most languages, both older and modern. In this type of code, each program statement is a step towards handling the inputs, processing and outputs.</li><li><strong>Procedural programs.</strong> These have definite start and end points. These languages were normal before GUI operating systems, as they usually have a single starting point then follow a sequence. Modern programs respond to events so can have many start points within the code.</li><li><strong>Event-driven programs.</strong> These respond to events such as a mouse click. These are the current approach for modern programming because they need to produce responses to the great variety of events that GUI operating systems provide.</li><li><strong>Object-orientated programs (OOP)</strong>. These view programs as a collection of objects, such as a database record, and not as a list of tasks as in procedural programming. Each object can be viewed as an independent &lsquo;machine&rsquo; with a distinct role or responsibility, which is capable of receiving messages, processing data and sending messages to other objects. These concepts are difficult to understand without more experience and they are not covered within the <em>BTEC First in Information and Creative Technology</em> course.</li></ul></root></div>
+                                                            <div class="level2" data-id="885"><h2 id="fid_MS40Ljk5Mi4xMDQ3LjEwNDkuMS4yLjUxLjUyLjIzNi4yMzkuODg1Ljg4Ni4tbW9kZWxzXGNvcmVcZWxlbWVudFx0ZXh0LTg4Ng==">Characteristics of low-level programming languages</h2><span data-type="xref"><root><p>Assembly language is written using an assembler, which helps the programmer by checking for errors in the <span class="highlight"><ref data-fid="MS40Ljk5Mi4xMDQ3LjEwNDkuMTA0MTguLW1vZGVsc1xjb3JlXGVsZW1lbnRccmVmZXJlbmNlLTEwNDE4" data-elemfid="MS40Ljk5Mi4xMDQ3LjEwNDkuMS4yLjUxLjUyLjIzNi4yMzkuODg1LjIxNzcuLW1vZGVsc1xjb3JlXGVsZW1lbnRcY29tcG9zaXRlLTIxNzc=" data-type="Key_terms"><text>mnemonics</text></ref></span> before compiling the program into machine code.</p></root></span><div class="Key_terms" data-id="2177"><h4>Key term</h4><div class="tip_content" data-fid="MS40Ljk5Mi4xMDQ3LjEwNDkuMS4yLjUxLjUyLjIzNi4yMzkuODg1LjIxNzcuLW1vZGVsc1xjb3JlXGVsZW1lbnRcY29tcG9zaXRlLTIxNzc=" id="anchor_fid_MS40Ljk5Mi4xMDQ3LjEwNDkuMS4yLjUxLjUyLjIzNi4yMzkuODg1LjIxNzcuLW1vZGVsc1xjb3JlXGVsZW1lbnRcY29tcG9zaXRlLTIxNzc="><p><span class="highlight">Mnemonics</span> &ndash; Assembly language consists of a number of mnemonics (abbreviations) such as MOV (move instruction). Each mnemonic is equivalent to a machine code instruction.</p></div></div><p>Machine code is binary bytes, so could be written without an assembler by typing binary numbers direct into memory. However, this would be very difficult, as the programmer would only see the program as numbers. The mnemonic abbreviations in assembly languages make understanding the program much easier.</p><div class="Fact_Box" data-id="2185"><h4>Did you know?</h4><div class="tip_content" data-fid="MS40Ljk5Mi4xMDQ3LjEwNDkuMS4yLjUxLjUyLjIzNi4yMzkuODg1LjIxODUuLW1vZGVsc1xjb3JlXGVsZW1lbnRcY29tcG9zaXRlLTIxODU=" id="anchor_fid_MS40Ljk5Mi4xMDQ3LjEwNDkuMS4yLjUxLjUyLjIzNi4yMzkuODg1LjIxODUuLW1vZGVsc1xjb3JlXGVsZW1lbnRcY29tcG9zaXRlLTIxODU="><p>Although a low-level program will have a large number of lines in the code that the programmer wrote, when it gets assembled into machine code this is a lot smaller than an equivalent program written in a high-level language. This is because a line of code written using a high-level language will create a lot of machine code to allow for the many ways the high-level code instruction could be used.</p></div></div><div class="remember" data-id="2193"><h4>remember</h4><p>Low-level programs are written in situations where precise control is needed over the processing and where speed is essential.</p></div></div>
+                </div>
+        </body>
+    </html>

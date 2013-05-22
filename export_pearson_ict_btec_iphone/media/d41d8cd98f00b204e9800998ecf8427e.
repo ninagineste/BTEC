@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="/css/user/login.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="/css/main.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" >
+        <title></title>
+        
+    </head>
+    <body class="gt">
+        
+        
+        
+        <div class="topbar">
+            <div class="fill">
+                    <div class="brand">
+                        <a href="/">
+                        <img src="/img/design/logo.png" />
+                    </a>
+                    </div>
+                                </div>
+        </div>
+
+        <div class="container">
+            <div id="content" class="content">
+                
+
+<div class="titlebar">
+<h1>Welcome</h1>
+<a href="" style="color:grey;">Home&nbsp;</a>
+</div>
+<div class="mainform" align="center">
+        <div class="title-box" align="center">
+            <h1>Identification</h1>
+            <form id="Uy1mb3Jtc1x1c2VyXExvZ2luLTUxOWI5MzRmNzJiZTA=" name="formsuserLogin_519b934f7ea17" method="post" action="/user/login/url/Lw%3D%3D"><dl class="zend_form_dojo">
+<dt id="Uy10eXBlLTUxOWI5MzRmNzI2ZWI=-label">&#160;</dt>
+<dd id="Uy10eXBlLTUxOWI5MzRmNzI2ZWI=-element">
+<input type="hidden" name="type" value="" id="Uy10eXBlLTUxOWI5MzRmNzI2ZWI="></dd>
+<dt id="Uy1sb2dpbi01MTliOTM0ZjdiMjU2-label"><label for="Uy1sb2dpbi01MTliOTM0ZjdiMjU2" class="optional">Username:</label></dt>
+<dd>
+<input require="1" class="login_input" id="Uy1sb2dpbi01MTliOTM0ZjdiMjU2" name="login" value="" type="text"></dd>
+<dt id="Uy1wYXNzd29yZC01MTliOTM0ZjdiNGRh-label"><label for="Uy1wYXNzd29yZC01MTliOTM0ZjdiNGRh" class="optional">Password:</label></dt>
+<dd>
+<input require="1" class="login_input" id="Uy1wYXNzd29yZC01MTliOTM0ZjdiNGRh" name="password" value="" type="password"></dd>
+<dt id="Uy1DaGVja0V4cGlyZS01MTliOTM0ZjdiNjRh-label"><label for="Uy1DaGVja0V4cGlyZS01MTliOTM0ZjdiNjRh" class="optional">Stay signed in</label></dt>
+<dd>
+<input name="CheckExpire" value="0" type="hidden"><input checked="checked" id="Uy1DaGVja0V4cGlyZS01MTliOTM0ZjdiNjRh" name="CheckExpire" value="1" type="checkbox"></dd>
+<dt id="submit-label">&#160;</dt><dd id="submit-element">
+<input class="button orange" id="Uy1zdWJtaXQtNTE5YjkzNGY3YjdkZA==" name="submit" value="Login" type="submit"></dd>
+<dt id="register-label">&#160;</dt><dd id="register-element">
+<button name="register" id="Uy1yZWdpc3Rlci01MTliOTM0ZjdiOWFj" type="button" class="button blue register">Register</button></dd></dl></form>
+
+        <!---<div class="buttonsContainer">
+            <a class="button blue" href="/user/register/fpath/1./from/login">Register</a>
+
+            <a class="button orange" href="/user/login/fpath/1./from/login">Login</a>
+        </div>  --->
+
+    </div>
+</div>
+            </div>
+
+            <div class="content">
+                            </div>
+            <footer align="center">
+                <hr/>
+                <ul>
+                    <li><a href="http://gutenberg-technology.com/">Gutenberg Technology&nbsp;</a></li>
+                    <li><a href="/help" class="noajax"> Help&nbsp;</a></li>
+                    <li><a href="" class="tocome"> Legal Mention&nbsp;</a></li>
+                    <li><a href="" class="tocome"> Contact us</a></li>
+                </ul>
+            </footer>
+        </div>
+
+        <!-- loading -->
+        <div id="loading">&nbsp;</div>
+        <!-- ghost loading -->
+        <div id="ghostLoading">&nbsp;</div>
+        <!-- Page Loading -->
+        <div id="pageLoading">&nbsp;</div>
+        <div id="loadingDialog">
+            <div class="centerLoader">
+                <img src="/img/default/ajax-loader.gif" />
+            </div>
+        </div>
+        <div id="progressDialog">
+            <div class="centerDialog">
+                                Please wait...<br />
+                <progress max="100"></progress>
+            </div>
+        </div>
+
+                <div id="box1"></div>
+
+        <script type="text/javascript">
+            <!--
+                var BUCKET = "0";
+            -->
+        </script>
+        
+    <!--dojo -->
+        <style type="text/css">
+<!--
+    @import "/js/dijit/themes/gt/gt.css";
+-->
+</style>
+<script type="text/javascript">
+//<!--
+    var djConfig = {"parseOnLoad":true,"locale":"root"};
+//-->
+</script>
+<script type="text/javascript" src="/js/dojo/dojo.js"></script>
+<script type="text/javascript" src="/js/layer/form.js"></script>
+<script type="text/javascript" src="/js/layer/base.js"></script>
+<script type="text/javascript">
+//<!--
+dojo.require("dijit.form.ValidationTextBox");
+    dojo.require("dijit.form.CheckBox");
+    dojo.require("dijit.form.Button");
+    dojo.require("dijit.form.Form");
+    dojo.require("dojo.parser");
+dojo.addOnLoad(function() {
+    dojo.forEach(zendDijits, function(info) {
+        var n = dojo.byId(info.id);
+        if (null != n) {
+            dojo.attr(n, dojo.mixin({ id: info.id }, info.params));
+        }
+    });
+    dojo.parser.parse();
+});
+    dojo.addOnLoad(
+    function(){
+        dojo.require("user.register");
+        user.register.init();
+    }
+);
+    dojo.addOnLoad(function(){
+    dojo.require('core.behavior')
+    core.behavior.init();
+
+    dojo.require('core.dojo_override')
+    core.dojo_override.init();
+});
+var zendDijits = [{"id":"Uy1sb2dpbi01MTliOTM0ZjdiMjU2","params":{"required":"false","dojoType":"dijit.form.ValidationTextBox"}},{"id":"Uy1wYXNzd29yZC01MTliOTM0ZjdiNGRh","params":{"required":"false","dojoType":"dijit.form.ValidationTextBox"}},{"id":"Uy1DaGVja0V4cGlyZS01MTliOTM0ZjdiNjRh","params":{"required":"false","dojoType":"dijit.form.CheckBox"}},{"id":"Uy1zdWJtaXQtNTE5YjkzNGY3YjdkZA==","params":{"required":"false","label":"Login","dojoType":"dijit.form.Button"}},{"id":"Uy1yZWdpc3Rlci01MTliOTM0ZjdiOWFj","params":{"required":"false","dojoType":"dijit.form.Button"}},{"id":"Uy1mb3Jtc1x1c2VyXExvZ2luLTUxOWI5MzRmNzJiZTA=","params":{"dojoType":"dijit.form.Form"}}];
+//-->
+
+</script>
+        
+                    </body>
+</html>
